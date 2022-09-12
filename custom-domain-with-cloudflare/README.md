@@ -11,6 +11,14 @@ Create a new directory `./assets` and set:
 * The certificate key as `./assets/domain.test.key`
 * The trust chain as `./assets/chain.pem`
 
+## Create a PingOne Environment
+
+TBC - Use the web console, only "SSO" capability is required
+
+## Create a PingOne worker client
+
+TBC - Must have `Environment Admin` rights to the PingOne Environment created above
+
 ## Set the Environment Variables
 
 Create an environment file:
@@ -25,14 +33,6 @@ Modify `setenv.sh` as required, then:
 ```shell
 . ./setenv.sh
 ```
-
-## Create a PingOne client
-
-TBC
-
-## Create a PingOne Environment
-
-TBC - Use the web console, only "SSO" capability is required
 
 ## Run it
 
