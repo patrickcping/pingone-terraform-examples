@@ -1,0 +1,7 @@
+setenv.sh
+.terraform
+.terraform.lock.hcl
+*.tfout
+*.tfstate
+*.tfstate.backup
+assets

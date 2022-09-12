@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+
+## Cloudflare
+
+export CLOUDFLARE_API_TOKEN=
+
+export TF_VAR_domain_zone=
+
+export TF_VAR_domain_cname=
+
+## Ping
+
+export PINGONE_CLIENT_ID=
+export PINGONE_CLIENT_SECRET=
+export PINGONE_ENVIRONMENT_ID=
+export PINGONE_REGION=
+
+export TF_VAR_environment_name="Domain Testing 1"
+
+export TF_VAR_certificate_pem_file=$(cat ./assets/domain.test.crt)
+export TF_VAR_intermediate_certificates_pem_file=$(cat ./assets/chain.pem)
+export TF_VAR_private_key_pem_file=$(cat ./assets/domain.test.key)
